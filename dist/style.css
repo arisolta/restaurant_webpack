@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 5%;
+}
+
+.nav > ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    justify-content: center;
+    padding: 25px;
+    border: 1px solid black;
+}
+
+.nav li{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.main{
+    display: grid;
+    padding: 25px;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid black;
+
+}
+.main > .image{
+    height: 500px;
+}
+
+.image > img{
+    height: 480px;
+    max-width: 100%;
+}
+
+.text-area{
+    text-align: center;
+}
+
+#home, #menu, #contact{
+    cursor: pointer;
+}
